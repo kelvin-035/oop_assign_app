@@ -136,6 +136,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btn_searchTicket = findViewById(R.id.btn_searchTicket);
+        btn_searchTicket.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentSearchTicket = new Intent();
+                intentSearchTicket.setClass(MainActivity.this, searchTicket.class);
+                startActivity(intentSearchTicket);
+            }
+        });
+
 
 
     }
