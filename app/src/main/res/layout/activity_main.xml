@@ -487,7 +487,7 @@
 
     <Button
         android:id="@+id/btn_searchTicket"
-        android:text="@string/searchTicket"
+        android:text="查詢訂票紀錄"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"

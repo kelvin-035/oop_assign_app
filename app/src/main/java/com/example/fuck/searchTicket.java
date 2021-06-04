@@ -28,7 +28,7 @@ public class searchTicket extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_search_ticket);
         IDCardText = (EditText)findViewById(R.id.ID);
         txtData = (TextView) this.findViewById(R.id.txtData);
         btnFetch = (Button) findViewById(R.id.btnFetch);
@@ -44,6 +44,7 @@ public class searchTicket extends AppCompatActivity {
                 connectMySql.execute("");
             }
         });
+
         btnClear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -27,5 +27,5 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="btn_toMain">回到首頁</string>
-    <string name="searchTicket">我的車票</string>
+    <string name="title_activity_search_ticket">searchTicket</string>
 </resources>
